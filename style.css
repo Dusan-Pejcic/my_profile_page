@@ -1,0 +1,138 @@
+body{
+    font-size: 16px;
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+.headers{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.text{
+    color: #999;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+   text-align: left; 
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.website-link{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-variant: small-caps;
+}
+
+.website-link:hover{
+    border: 1px solid white;
+    background-color:black;
+    color: white;
+}
+
+.profile-picture{
+    height: auto;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+@media (max-width: 1980px) {
+    /* For a screen < 960px, this CSS will be read */
+   
+h1{  
+    margin-top: 50px;
+    font-size: 5rem;
+    margin-bottom: 0;
+    color:white;
+}
+
+p{  
+    margin-top: 80px;
+    columns: 2; 
+    column-gap: 20px;  
+}
+
+
+
+.container{
+    margin: 100px auto;
+    width: 70%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.website-link{
+    margin: 40px auto;
+    font-size: 18px;
+    padding: 10px 40px;   
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li{
+    display: inline;
+}
+.social-media-container{
+    margin-top: 60px;
+}
+
+.social-btn a{
+    font-size: 24px;
+    color: white;
+    padding: 20px;
+}
+
+.social-btn a:hover{
+    color: #F759C2;
+}
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+        width: 90%;
+        /* padding: 10px; */
+      }
+  
+      h1{
+          font-size: 3rem;
+      }
+  
+      p{  
+          margin-top: 40px;
+          columns: 1; 
+          width: 100%; 
+          max-width: 100%; 
+      }
+  
+      .profile-picture{
+          height: auto;
+          width: 200px;
+          border-radius: 50%;
+          margin-top: 100px;
+      }
+  }
+ 
